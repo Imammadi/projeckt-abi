@@ -1,0 +1,8 @@
+.colored-list {
+  list-style-type: disc; /* Точки */
+}
+
+.colored-list li::marker {
+  color: red;  /* Цвет маркера */
+  font-size: 25px;  /* Размер маркера */
+}
