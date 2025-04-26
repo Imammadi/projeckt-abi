@@ -41,12 +41,22 @@ function App() {
         >
           <div style={{ width: "579px" }}>
             <ul className="colored-list">
-              <li style={{ color: "red", fontSize: "20px" }}>Зал</li>
+              <li
+                style={{ color: "red", fontSize: "20px", fontFamily: "Lato" }}
+              >
+                Зал
+              </li>
             </ul>
-            <p style={{ fontSize: "40px", color: "white" }}>
+            <p
+              style={{
+                fontSize: "40px",
+                color: "white",
+                fontFamily: "Comfortaa",
+              }}
+            >
               “Bilimkana Arena”
             </p>
-            <p style={{ fontSize: "32px", color: "white" }}>
+            <p style={{ fontSize: "32px", color: "white", fontFamily: "Lato" }}>
               Школа Билимкана-Бишкек продолжает набор в секцию баскетбол для
               взрослых и детей! Занятия проводятся в зале, с соблюдением всех
               норм безопасности!
@@ -85,7 +95,14 @@ function App() {
       {/* --------------------------- */}
       <div style={{ backgroundColor: "#18171A" }}>
         <div style={{ width: "1205px", margin: "auto" }}>
-          <p style={{ fontSize: "40px", padding: "15px", color: "white" }}>
+          <p
+            style={{
+              fontSize: "40px",
+              padding: "35px 0px 15px 0px",
+              color: "white",
+              fontFamily: "Comfortaa",
+            }}
+          >
             Баскетбольное поле «Bilimkana Arena»
           </p>
           <div style={{ display: "flex", justifyContent: "space-between" }}>
@@ -122,7 +139,13 @@ function App() {
           </div>
           {/* ------------ lists -> */}
           <div style={{ padding: "20px 0px" }}>
-            <p style={{ color: "white", fontSize: "40px" }}>
+            <p
+              style={{
+                color: "white",
+                fontSize: "40px",
+                fontFamily: "Comfortaa",
+              }}
+            >
               Зал «Bilimkana Arena»
             </p>
             <div
@@ -130,6 +153,7 @@ function App() {
                 display: "flex",
                 justifyContent: "space-between",
                 padding: "10px 0px  80px 0px",
+                fontFamily: "Lato",
               }}
             >
               {/* 1 column list ->*/}
@@ -243,6 +267,7 @@ function App() {
             flexWrap: "wrap",
             alignContent: "center",
             justifyContent: "space-between",
+            fontFamily: "Lato",
           }}
         >
           <div
@@ -278,6 +303,7 @@ function App() {
         </div>
       </div>
       {/* ------------------------------------ */}
+      <div style={{ height: "60px", backgroundColor: "#18171A" }}></div>
       <div
         style={{
           width: "100%",
@@ -299,11 +325,18 @@ function App() {
                   fontSize: "40px",
                   color: "white",
                   padding: "20px",
+                  fontFamily: "Comfortaa",
                 }}
               >
                 Отзывы клиентов
               </p>
-              <div style={{ display: "flex", justifyContent: "space-between" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  fontFamily: "Lato",
+                }}
+              >
                 {/* 1 review */}
                 <div
                   style={{
@@ -341,8 +374,19 @@ function App() {
                         alignContent: "center",
                       }}
                     >
-                      <img src={Ava2} alt="Avatar" />
-                      <p style={{ fontSize: "24px", color: "white" }}>
+                      <img
+                        src={Ava2}
+                        alt="Avatar"
+                        style={{ paddingRight: "10px" }}
+                        paddingleft
+                      />
+                      <p
+                        style={{
+                          fontSize: "24px",
+                          color: "white",
+                          fontFamily: "Outfit",
+                        }}
+                      >
                         Кортни Генри
                       </p>
                     </div>
@@ -394,8 +438,18 @@ function App() {
                         alignContent: "center",
                       }}
                     >
-                      <img src={Ava} alt="Avatar" />
-                      <p style={{ fontSize: "24px", color: "white" }}>
+                      <img
+                        src={Ava}
+                        alt="Avatar"
+                        style={{ paddingRight: "10px" }}
+                      />
+                      <p
+                        style={{
+                          fontSize: "24px",
+                          color: "white",
+                          fontFamily: "Outfit",
+                        }}
+                      >
                         Антонов Павел
                       </p>
                     </div>
@@ -447,8 +501,18 @@ function App() {
                         alignContent: "center",
                       }}
                     >
-                      <img src={Ava3} alt="Avatar" />
-                      <p style={{ fontSize: "24px", color: "white" }}>
+                      <img
+                        src={Ava3}
+                        alt="Avatar"
+                        style={{ paddingRight: "10px" }}
+                      />
+                      <p
+                        style={{
+                          fontSize: "24px",
+                          color: "white",
+                          fontFamily: "Outfit",
+                        }}
+                      >
                         Анна Каренина
                       </p>
                     </div>
@@ -467,7 +531,13 @@ function App() {
           ) : (
             // Review form -->
             <div style={{}}>
-              <div style={{ width: "950px", margin: "auto" }}>
+              <div
+                style={{
+                  width: "950px",
+                  margin: "auto",
+                  fontFamily: "Lato",
+                }}
+              >
                 <div style={{ padding: "20px 0px 15px 0px" }}>
                   <p style={{ fontSize: "40px", color: "white" }}>
                     Что вы думаете ?
@@ -542,6 +612,7 @@ function App() {
                   color: "white",
                   border: "none",
                   cursor: "pointer",
+                  fontFamily: "Comfortaa",
                 }}
                 onClick={toggleReviewForm}
               >
@@ -566,6 +637,7 @@ function App() {
                 style={{
                   width: "430px",
                   padding: "45px",
+                  fontFamily: "Lato",
                 }}
               >
                 <div style={{ display: "flex", padding: "5px" }}>
